@@ -43,6 +43,10 @@ local_enable=YES
 
 # Enable upload and write permissions
 write_enable=YES
+allow_writeable_chroot=YES
+pam_service_name=vsftpd
+
+
 
 # Restrict users to their home directories (important!)
 chroot_local_user=YES
